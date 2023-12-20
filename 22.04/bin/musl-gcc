@@ -1,0 +1,2 @@
+#!/bin/sh
+exec "${REALGCC:-gcc}" "$@" -specs "/mnt/hgfs/Projects/_frameworks/Core.framework/targets/Ubuntu/_SDKs/22.04.1/lib/musl-gcc.specs"
